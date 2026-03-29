@@ -1,7 +1,7 @@
      VMA      LMA     Size Align Out     In      Symbol
        0        0  1000000     1 . = 0x1000000
  1000000  1000000      248     2 .text
- 1000000  1000000        e     2         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/user-08b13a.o:(.text.start)
+ 1000000  1000000        e     2         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/user-f42a20.o:(.text.start)
  1000000  1000000        0     1                 .L0 
  1000000  1000000        0     1                 .L0 
  1000000  1000000        0     1                 $x
@@ -9,7 +9,7 @@
  1000000  1000000        e     1                 start
  100000e  100000e        0     1                 .L0 
  100000e  100000e        0     1                 .L0 
- 100000e  100000e        2     2         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/shell-e92036.o:(.text)
+ 100000e  100000e        2     2         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/shell-ff5510.o:(.text)
  100000e  100000e        0     1                 .L0 
  100000e  100000e        0     1                 .L0 
  100000e  100000e        0     1                 $x
@@ -17,7 +17,7 @@
  100000e  100000e        2     1                 main
  1000010  1000010        0     1                 .L0 
  1000010  1000010        0     1                 .L0 
- 1000010  1000010        4     2         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/user-08b13a.o:(.text)
+ 1000010  1000010        4     2         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/user-f42a20.o:(.text)
  1000010  1000010        0     1                 .L0 
  1000010  1000010        0     1                 .L0 
  1000010  1000010        0     1                 $x
@@ -30,7 +30,7 @@
  1000012  1000012        0     1                 .L0 
  1000012  1000012        2     1                 putchar
  1000014  1000014        0     1                 .L0 
- 1000014  1000014      234     2         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/common-944eba.o:(.text)
+ 1000014  1000014      234     2         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/common-a60592.o:(.text)
  1000014  1000014        0     1                 .L0 
  1000014  1000014        0     1                 .L0 
  1000014  1000014        0     1                 $x
@@ -235,39 +235,39 @@
  1010260  1010260        0     1         __stack_top = .
  1010260  1010260        0     1         
        0        0      1ec     1 .debug_abbrev
-       0        0       2f     1         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/shell-e92036.o:(.debug_abbrev)
+       0        0       2f     1         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/shell-ff5510.o:(.debug_abbrev)
        0        0        0     1                 $d
-      2f       2f       7c     1         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/user-08b13a.o:(.debug_abbrev)
+      2f       2f       7c     1         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/user-f42a20.o:(.debug_abbrev)
       2f       2f        0     1                 $d
-      ab       ab      141     1         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/common-944eba.o:(.debug_abbrev)
+      ab       ab      141     1         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/common-a60592.o:(.debug_abbrev)
       ab       ab        0     1                 $d
        0        0      2ed     1 .debug_info
-       0        0       2f     1         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/shell-e92036.o:(.debug_info)
+       0        0       2f     1         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/shell-ff5510.o:(.debug_info)
        0        0        0     1                 $d
-      2f       2f       58     1         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/user-08b13a.o:(.debug_info)
+      2f       2f       58     1         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/user-f42a20.o:(.debug_info)
       2f       2f        0     1                 $d
-      87       87      266     1         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/common-944eba.o:(.debug_info)
+      87       87      266     1         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/common-a60592.o:(.debug_info)
       87       87        0     1                 $d
        0        0       e0     1 .debug_str_offsets
-       0        0       18     1         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/shell-e92036.o:(.debug_str_offsets)
+       0        0       18     1         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/shell-ff5510.o:(.debug_str_offsets)
        0        0        0     1                 $d
        8        8        0     1                 .L0 
-      18       18       28     1         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/user-08b13a.o:(.debug_str_offsets)
+      18       18       28     1         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/user-f42a20.o:(.debug_str_offsets)
       18       18        0     1                 $d
       20       20        0     1                 .L0 
-      40       40       a0     1         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/common-944eba.o:(.debug_str_offsets)
+      40       40       a0     1         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/common-a60592.o:(.debug_str_offsets)
       40       40        0     1                 $d
       48       48        0     1                 .L0 
        0        0      143     1 .debug_str
        0        0      143     1         <internal>:(.debug_str)
        0        0       84     1 .debug_addr
-       0        0        c     1         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/shell-e92036.o:(.debug_addr)
+       0        0        c     1         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/shell-ff5510.o:(.debug_addr)
        0        0        0     1                 $d
        8        8        0     1                 .L0 
-       c        c       14     1         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/user-08b13a.o:(.debug_addr)
+       c        c       14     1         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/user-f42a20.o:(.debug_addr)
        c        c        0     1                 $d
       14       14        0     1                 .L0 
-      20       20       64     1         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/common-944eba.o:(.debug_addr)
+      20       20       64     1         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/common-a60592.o:(.debug_addr)
       20       20        0     1                 $d
       28       28        0     1                 .L0 
        0        0       3b     1 .comment
@@ -275,36 +275,36 @@
        0        0       4e     1 .riscv.attributes
        0        0       4e     1         <internal>:(.riscv.attributes)
        0        0      100     4 .debug_frame
-       0        0       24     4         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/shell-e92036.o:(.debug_frame)
+       0        0       24     4         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/shell-ff5510.o:(.debug_frame)
        0        0        0     1                 .L0 
        0        0        0     1                 $d
-      24       24       44     4         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/user-08b13a.o:(.debug_frame)
+      24       24       44     4         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/user-f42a20.o:(.debug_frame)
       24       24        0     1                 .L0 
       24       24        0     1                 $d
-      68       68       98     4         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/common-944eba.o:(.debug_frame)
+      68       68       98     4         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/common-a60592.o:(.debug_frame)
       68       68        0     1                 .L0 
       68       68        0     1                 $d
        0        0      3a3     1 .debug_line
-       0        0       56     1         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/shell-e92036.o:(.debug_line)
+       0        0       56     1         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/shell-ff5510.o:(.debug_line)
        0        0        0     1                 .Lline_table_start0
        0        0        0     1                 $d
-      56       56       73     1         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/user-08b13a.o:(.debug_line)
+      56       56       73     1         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/user-f42a20.o:(.debug_line)
       56       56        0     1                 .Lline_table_start0
       56       56        0     1                 $d
-      c9       c9      2da     1         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/common-944eba.o:(.debug_line)
+      c9       c9      2da     1         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/common-a60592.o:(.debug_line)
       c9       c9        0     1                 .Lline_table_start0
       c9       c9        0     1                 $d
        0        0       3a     1 .debug_line_str
        0        0       3a     1         <internal>:(.debug_line_str)
        0        0       32     1 .debug_rnglists
-       0        0       17     1         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/user-08b13a.o:(.debug_rnglists)
+       0        0       17     1         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/user-f42a20.o:(.debug_rnglists)
        0        0        0     1                 $d
        c        c        0     1                 .L0 
-      17       17       1b     1         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/common-944eba.o:(.debug_rnglists)
+      17       17       1b     1         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/common-a60592.o:(.debug_rnglists)
       17       17        0     1                 $d
       23       23        0     1                 .L0 
        0        0      207     1 .debug_loclists
-       0        0      207     1         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/common-944eba.o:(.debug_loclists)
+       0        0      207     1         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/common-a60592.o:(.debug_loclists)
        0        0        0     1                 $d
        c        c        0     1                 .L0 
        0        0      340     4 .symtab

@@ -85,6 +85,8 @@ struct process
 #define PAGE_X    (1 << 3) //Executable
 #define PAGE_U    (1 << 4) //User
 
-//USER
+//USER MODE
 #define USER_BASE 0x1000000
 
+//S MODE
+#define SSTATUS_SPIE (1 << 5)
