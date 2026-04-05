@@ -2,7 +2,7 @@
        0        0 80200000     1 . = 0x80200000
 80200000        0        0     1 __kernel_base = .
 80200000 80200000      ed6     4 .text
-80200000 80200000        e     2         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/kernel-0a8107.o:(.text.boot)
+80200000 80200000        e     2         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/kernel-7f5844.o:(.text.boot)
 80200000 80200000        0     1                 .L0 
 80200000 80200000        0     1                 .L0 
 80200000 80200000        0     1                 $x
@@ -10,7 +10,7 @@
 80200000 80200000        e     1                 boot
 8020000e 8020000e        0     1                 .L0 
 8020000e 8020000e        0     1                 .L0 
-80200010 80200010      c78     4         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/kernel-0a8107.o:(.text)
+80200010 80200010      c78     4         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/kernel-7f5844.o:(.text)
 80200010 80200010        0     1                 .L0 
 80200010 80200010        0     1                 .L0 
 80200010 80200010        0     1                 $x
@@ -723,7 +723,7 @@
 80200c86 80200c86        0     1                 .L0 
 80200c88 80200c88        0     1                 .L0 
 80200c88 80200c88        0     1                 .L0 
-80200c88 80200c88      24e     2         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/common-0a80cd.o:(.text)
+80200c88 80200c88      24e     2         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/common-1ac8d8.o:(.text)
 80200c88 80200c88        0     1                 .L0 
 80200c88 80200c88        0     1                 .L0 
 80200c88 80200c88        0     1                 $x
@@ -923,7 +923,7 @@
 80200ed8 80200ed8      2bb     4 .rodata
 80200ed8 80200ed8      2bb     1         <internal>:(.rodata.str1.1)
 80201194 80201194    103a4     4 .data
-80201194 80201194        4     4         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/kernel-0a8107.o:(.data)
+80201194 80201194        4     4         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/kernel-7f5844.o:(.data)
 80201194 80201194        4     1                 alloc_pages.next_paddr
 80201194 80201194        0     1                 $d
 80201198 80201198    103a0     1         shell.bin.o:(.data)
@@ -931,7 +931,7 @@
 80211538 80211538        0     1                 _binary_shell_bin_end
 80211538 80211538    100a8     8 .bss
 80211538 80211538        0     1         __bss = .
-80211538 80211538    100a8     8         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/kernel-0a8107.o:(.bss)
+80211538 80211538    100a8     8         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/kernel-7f5844.o:(.bss)
 80211538 80211538        0     1                 $d
 80211538 80211538    10080     1                 procs
 802215b8 802215b8        4     1                 proc_a
@@ -952,43 +952,43 @@
 80242000 80242000  4000000     1 . += 64 * 1024 * 1024
 84242000 84242000        0     1 __free_ram_end = .
        0        0      b00     1 .debug_loclists
-       0        0      8f9     1         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/kernel-0a8107.o:(.debug_loclists)
+       0        0      8f9     1         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/kernel-7f5844.o:(.debug_loclists)
        0        0        0     1                 $d
        c        c        0     1                 .L0 
-     8f9      8f9      207     1         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/common-0a80cd.o:(.debug_loclists)
+     8f9      8f9      207     1         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/common-1ac8d8.o:(.debug_loclists)
      8f9      8f9        0     1                 $d
      905      905        0     1                 .L0 
        0        0      4cd     1 .debug_abbrev
-       0        0      38c     1         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/kernel-0a8107.o:(.debug_abbrev)
+       0        0      38c     1         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/kernel-7f5844.o:(.debug_abbrev)
        0        0        0     1                 $d
-     38c      38c      141     1         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/common-0a80cd.o:(.debug_abbrev)
+     38c      38c      141     1         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/common-1ac8d8.o:(.debug_abbrev)
      38c      38c        0     1                 $d
        0        0     177e     1 .debug_info
-       0        0     1518     1         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/kernel-0a8107.o:(.debug_info)
+       0        0     1518     1         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/kernel-7f5844.o:(.debug_info)
        0        0        0     1                 $d
-    1518     1518      266     1         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/common-0a80cd.o:(.debug_info)
+    1518     1518      266     1         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/common-1ac8d8.o:(.debug_info)
     1518     1518        0     1                 $d
        0        0       f7     1 .debug_rnglists
-       0        0       dc     1         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/kernel-0a8107.o:(.debug_rnglists)
+       0        0       dc     1         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/kernel-7f5844.o:(.debug_rnglists)
        0        0        0     1                 $d
        c        c        0     1                 .L0 
-      dc       dc       1b     1         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/common-0a80cd.o:(.debug_rnglists)
+      dc       dc       1b     1         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/common-1ac8d8.o:(.debug_rnglists)
       dc       dc        0     1                 $d
       e8       e8        0     1                 .L0 
        0        0      338     1 .debug_str_offsets
-       0        0      298     1         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/kernel-0a8107.o:(.debug_str_offsets)
+       0        0      298     1         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/kernel-7f5844.o:(.debug_str_offsets)
        0        0        0     1                 $d
        8        8        0     1                 .L0 
-     298      298       a0     1         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/common-0a80cd.o:(.debug_str_offsets)
+     298      298       a0     1         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/common-1ac8d8.o:(.debug_str_offsets)
      298      298        0     1                 $d
      2a0      2a0        0     1                 .L0 
        0        0      575     1 .debug_str
        0        0      575     1         <internal>:(.debug_str)
        0        0      2a0     1 .debug_addr
-       0        0      23c     1         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/kernel-0a8107.o:(.debug_addr)
+       0        0      23c     1         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/kernel-7f5844.o:(.debug_addr)
        0        0        0     1                 $d
        8        8        0     1                 .L0 
-     23c      23c       64     1         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/common-0a80cd.o:(.debug_addr)
+     23c      23c       64     1         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/common-1ac8d8.o:(.debug_addr)
      23c      23c        0     1                 $d
      244      244        0     1                 .L0 
        0        0       3b     1 .comment
@@ -996,17 +996,17 @@
        0        0       4e     1 .riscv.attributes
        0        0       4e     1         <internal>:(.riscv.attributes)
        0        0      368     4 .debug_frame
-       0        0      2d0     4         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/kernel-0a8107.o:(.debug_frame)
+       0        0      2d0     4         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/kernel-7f5844.o:(.debug_frame)
        0        0        0     1                 .L0 
        0        0        0     1                 $d
-     2d0      2d0       98     4         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/common-0a80cd.o:(.debug_frame)
+     2d0      2d0       98     4         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/common-1ac8d8.o:(.debug_frame)
      2d0      2d0        0     1                 .L0 
      2d0      2d0        0     1                 $d
        0        0      d90     1 .debug_line
-       0        0      ab6     1         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/kernel-0a8107.o:(.debug_line)
+       0        0      ab6     1         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/kernel-7f5844.o:(.debug_line)
        0        0        0     1                 .Lline_table_start0
        0        0        0     1                 $d
-     ab6      ab6      2da     1         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/common-0a80cd.o:(.debug_line)
+     ab6      ab6      2da     1         /var/folders/qj/b39v5tv96mq5nv9hzh517zz00000gn/T/common-1ac8d8.o:(.debug_line)
      ab6      ab6        0     1                 .Lline_table_start0
      ab6      ab6        0     1                 $d
        0        0       3d     1 .debug_line_str
